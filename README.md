@@ -3,13 +3,13 @@ This will be a step by step for those who are looking to use `Appium` with `Mac`
 A simple Caclulator test will be carried out at the end of the instructions.
 
 ### Prerequisites
-Prerequisites
 - homebrew
 - xcode
 - NodeJS
 - JAVA JDK 7 or higher
 
 We will also be installing the following
+
 - Android SDK and command line tool
 - IntelliK IDE
 - Maven
