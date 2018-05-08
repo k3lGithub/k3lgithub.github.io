@@ -1,5 +1,5 @@
 ## Setup Appium on Mac
-This will be a step by step for those who are looking to use Appium with Mac, Java, Maven and SDK command line tool.
+This will be a step by step for those who are looking to use `Appium` with `Mac`, `Java`, `Maven` and `SDK command line tool`.
 A simple Caclulator test will be carried out at the end of the instructions.
 
 ### Prerequisites
