@@ -113,8 +113,8 @@ This will take a while to download...
 > npm install -g appium
 > npm install -g appium -doctor
 > appium -doctor
-> appium - - doctor - - iOS
-> appium - - doctor - - android
+> appium -- doctor -- iOS
+> appium -- doctor -- android
 ```
 To verify Appium Dependencies are installed.
 If getting access issues, Go To > Info > permission > Click on lock and add your access
