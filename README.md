@@ -45,7 +45,7 @@ Firstly, you can check if you have Java already installed by running below in th
 ```
 Download and install java JDK
 `ADD IMAGE`
-If you are not sure where it is installed, try the below to find it’s `path`. NOTE:This will be useful when we set the enviorment variables later on.
+If you are not sure where it is installed, try the below to find it’s `path`. **NOTE:** This will be useful when we set the enviorment variables later on.
 ```markdown
 > which java
 ```
@@ -76,11 +76,12 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home
 export PATH=$JAVA_HOME/bin:$PATH
 export PATH=“/usr/local/Cellar/maven/3.5.3/libexec/bin”:$PATH
 ```
-NOTE:If your sdk has “platform-tools” folder, also add below to the file
+**NOTE:** If your sdk has “platform-tools” folder, also add below to the file
 ```markdown
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 ```
 `Add image after changing the variable`
+
 save and exit (or) you can exit and choose Y to save
 
 Source the .profile after making the changes
@@ -94,7 +95,11 @@ It should launch Android `SDK Manager` and this will confirm sdk is installed su
 ### Installing SDK and build tools using SDK Manager
 Choose packages you want to install. Recent `SDK tools`, `Platform Tools` and `Build Tools` necessary.
 From the `Extra` folder, also choose `Intel x86 Emulator Accelerator`
+
 `Add image`
+
 Accept licence and install
+
 `Add image`
+
 This will take a while to download...
