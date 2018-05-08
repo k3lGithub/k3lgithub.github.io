@@ -44,8 +44,8 @@ Firstly, you can check if you have Java already installed by running below in th
 > java -version (Should be v7 or higher)
 ```
 Download and install java JDK
-**ADD IMAGE**
-If you are not sure where it is installed, try the below to find it’s **path**. NOTE:This will be useful when we set the enviorment variables later on.
+`ADD IMAGE`
+If you are not sure where it is installed, try the below to find it’s `path`. NOTE:This will be useful when we set the enviorment variables later on.
 ```markdown
 > which java
 ```
@@ -54,12 +54,12 @@ If you are not sure where it is installed, try the below to find it’s **path**
 > brew install maven
 > mvn -version
 ```
-To check if Maven is installed and it’s **path**
+To check if Maven is installed and it’s `path`
 
 ### Android SDK
-The one I have installed was **tools_r25.2.3-macosx.zip** or you can download **Android Studio** and use it's sdkmanager.
-**Add image of the folders**
-Save the folders under the desired **path**
+The version I have installed was `tools_r25.2.3-macosx.zip` or you can download `Android Studio` and use it's sdkmanager.
+`Add image of the folders`
+Save the folders under the desired `path`
 
 ### Add Enviorment variables
 Update enviroment variables for Java JDK, Android SDK and maven paths
@@ -80,7 +80,7 @@ NOTE:If your sdk has “platform-tools” folder, also add below to the file
 ```markdown
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 ```
-**Add image after changing the variable**
+`Add image after changing the variable`
 save and exit (or) you can exit and choose Y to save
 
 Source the .profile after making the changes
@@ -89,12 +89,12 @@ Source the .profile after making the changes
 > echo $JAVA_HOME  (or) > echo $ANDROID_HOME  etc. and it should return the values
 > android
 ```
-It should launch Android **SDK Manager** and this will confirm sdk is installed successfully
+It should launch Android `SDK Manager` and this will confirm sdk is installed successfully
 
 ### Installing SDK and build tools using SDK Manager
-Choose packages you want to install. Recent **SDK tools**, **Platform Tools** and **Build Tools** necessary.
-From the **Extra** folder, also choose **Intel x86 Emulator Accelerator**
-**Add image**
+Choose packages you want to install. Recent `SDK tools`, `Platform Tools` and `Build Tools` necessary.
+From the `Extra` folder, also choose `Intel x86 Emulator Accelerator`
+`Add image`
 Accept licence and install
-**Add image**
+`Add image`
 This will take a while to download...
