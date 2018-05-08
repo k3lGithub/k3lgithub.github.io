@@ -123,7 +123,7 @@ If getting access issues, Go To > Info > permission > Click on lock and add your
 
 Install Dependencies
 ```markdown
-> brew install libimobiledevice - -HEAD
+> brew install libimobiledevice --HEAD
 > brew install Carthage
 > npm install device console
 > brew install iOS-deploy
