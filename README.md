@@ -44,11 +44,14 @@ Firstly, you can check if you have Java already installed by running below in th
 > java -version (Should be v7 or higher)
 ```
 Download and install java JDK
+
 `ADD IMAGE`
-If you are not sure where it is installed, try the below to find it’s `path`. **NOTE:** This will be useful when we set the enviorment variables later on.
+
+If you are not sure where it is installed, try the below to find it’s `path`.
 ```markdown
 > which java
 ```
+ **NOTE:** This will be useful when we set the enviorment variables later on.
 ### Maven
 ```markdown
 > brew install maven
