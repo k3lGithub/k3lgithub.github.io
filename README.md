@@ -15,7 +15,7 @@ We will also be installing the following
 - Maven
 
 ### Installing Homebew and Command line tool
-Starting with installing homebrew, open **Terminal** and type below to install
+Starting with installing homebrew, open 'Terminal' and type below to install
 ```markdown
 > ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
