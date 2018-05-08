@@ -14,7 +14,7 @@ We will also be installing the following
 - IntelliK IDE
 - Maven
 
-### Installing Homebew and Command line tool
+### Homebew and Command line tool
 Starting with installing homebrew, open `Terminal` and type below to install
 ```markdown
 > ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -25,11 +25,12 @@ Starting with installing homebrew, open `Terminal` and type below to install
 > brew search
 > brew update
 ```
-### Xcode
-Check if you have Xcode installed. If not install Xcode from App Store
-You may need to upgrade iOS accordingly in order to be able to install latest Xcode
 
-### Install NodeJS
+### Xcode
+Check if you have Xcode installed. If not install Xcode from App Store.
+You may need to upgrade macOS accordingly in order to be able to install latest Xcode
+
+### Install node.js and npm
 Check if node and npm are installed
 ```markdown
 > node --version
@@ -106,3 +107,30 @@ Accept licence and install
 `Add image`
 
 This will take a while to download...
+
+### Install Appium
+```markdown
+> npm install -g appium
+> npm install -g appium -doctor
+> appium -doctor
+> appium - - doctor - - iOS
+> appium - - doctor - - android
+```
+To verify Appium Dependencies are installed.
+If getting access issues, Go To > Info > permission > Click on lock and add your access
+
+`Add Image`
+
+Install Dependencies
+```markdown
+> brew install libimobiledevice - -HEAD
+> brew install Carthage
+> npm install device console
+> brew install iOS-deploy
+> gem install accpretty
+> npm install -g authorise-ios
+> authorise-ios
+```
+
+
+
