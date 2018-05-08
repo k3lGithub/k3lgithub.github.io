@@ -33,7 +33,7 @@ You may need to upgrade iOS accordingly in order to be able to install latest Xc
 Check if node and npm are installed
 ```markdown
 > node --version
-> npm - - version
+> npm -- version
 > npm update -g
 > brew install node
 > npm install -g npm
