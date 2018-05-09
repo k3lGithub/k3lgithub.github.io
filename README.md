@@ -11,7 +11,7 @@ A simple Caclulator test will be carried out at the end of the instructions.
 We will also be installing the following
 
 - Android SDK and command line tool
-- IntelliK IDE
+- IntelliJ IDE
 - Maven
 
 ### Homebew and Command line tool
