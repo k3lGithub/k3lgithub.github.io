@@ -32,7 +32,7 @@ Starting with installing homebrew, open `Terminal` and type below to install
 Check if you have Xcode installed. If not install Xcode from App Store.
 You may need to upgrade macOS accordingly in order to be able to install latest Xcode
 ```markdown
-xcode-select --install (Xocde command line tool)
+> xcode-select --install (Xocde command line tool)
 ```
 
 ### Install node.js and npm
