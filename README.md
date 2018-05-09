@@ -14,7 +14,7 @@ We will also be installing the following
 - IntelliJ IDE
 - Maven
 
-### Homebew and Command line tool
+### Homebew
 Starting with installing homebrew, open `Terminal` and type below to install
 ```markdown
 > ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -28,9 +28,12 @@ Starting with installing homebrew, open `Terminal` and type below to install
 > brew update
 ```
 
-### Xcode
+### Xcode and command line tool
 Check if you have Xcode installed. If not install Xcode from App Store.
 You may need to upgrade macOS accordingly in order to be able to install latest Xcode
+```markdown
+xcode-select --install (Xocde command line tool)
+```
 
 ### Install node.js and npm
 Check if node and npm are installed
@@ -113,26 +116,44 @@ This will take a while to download...
 ### Install Appium
 ```markdown
 > npm install -g appium
-> npm install -g appium -doctor
-> appium -doctor
-> appium -- doctor -- iOS
-> appium -- doctor -- android
 ```
-To verify Appium Dependencies are installed.
-If getting access issues, Go To > Info > permission > Click on lock and add your access
+**NOTE:** If you come across the following error, try downgrading the node as node v10 might not be compatible with appium@1.8.0. “Error trying to install Chromedriver binary. Waiting and trying again. frame.getFileName is not a function”
+In that case, `downgrade node` to desired version
+```markdown
+> node —version  (to see the current version)
+> brew install node@8 (node v8 or any desired version)
+> brew search node (to see what is currently available)
+> brew unlink node (if current version is node)
+> brew link node@8 (if you can’t use this try the below force link)
+> brew link --overwrite node@8 --force
+```
+Confirm the current version and try `installing Appium again`
+
+### Verify `Appium Dependencies` are installed
+```markdown
+> npm install -g appium-doctor
+> appium-doctor
+> appium-doctor --ios (checks ios setup)
+> appium-doctor --android (checks android setup)
+```
+**NOTE:** If getting `access or permission issues`, try
+```markdown
+(eg. path)
+> sudo mkdir /usr/local/frameworks 
+> sudo chown $(whoami):admin /usr/local/frameworks
+```
+To set the root permission (or) Go To path > Info > permission > Click on lock and add your write access
 
 `Add Image`
 
-Install Dependencies
+### Install Other and missing Dependencies if necessary
 ```markdown
 > brew install libimobiledevice --HEAD
-> brew install Carthage
+> brew install carthage
+> brew link carthage
 > npm install device console
-> brew install iOS-deploy
-> gem install accpretty
-> npm install -g authorise-ios
-> authorise-ios
+> brew install ios-deploy
+> gem install xcpretty
+> npm install authorize-ios
+> authorize-ios
 ```
-
-
-
