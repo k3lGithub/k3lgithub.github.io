@@ -19,7 +19,9 @@ Starting with installing homebrew, open `Terminal` and type below to install
 ```markdown
 > ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
 - Other useful command lines
+
 ```markdown
 > brew doctor
 > brew search
